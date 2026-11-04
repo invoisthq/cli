@@ -1,0 +1,18 @@
+{
+  "document": {"id": "01a19812-0000-7000-8000-7bbb86296ebf", "source": "api", "original_filename": "northwind-2041.pdf", "content_type": "application/pdf", "byte_size": 84211, "status": "done", "created_at": "2026-11-02T09:14:00Z", "updated_at": "2026-11-02T09:14:20Z"},
+  "extraction": {
+    "id": "01a19813-0000-7000-8000-58b5a09dd755", "document_id": "01a19812-0000-7000-8000-7bbb86296ebf", "engine": "invoist-extraction-v1", "status": "done",
+    "invoice_number": "INV-2041", "invoice_date": "2026-11-01", "due_date": "2026-12-01", "vendor_name": "Northwind Paper Co.", "vendor_address": "12 Harbor Road, Springfield",
+    "currency": "USD", "subtotal_cents": 111500, "tax_cents": 8920, "total_cents": 120420, "reference_number": "RF18 5390 0754 7034",
+    "line_items": [
+      {"description": "Copier paper, 40 boxes", "quantity": 40, "unit_price_cents": 2150, "line_total_cents": 86000},
+      {"description": "Toner, black", "quantity": 6, "unit_price_cents": 3500, "line_total_cents": 21000},
+      {"description": "Delivery", "quantity": 1, "line_total_cents": 4500}
+    ],
+    "fraud_indicators": [{"signal": "bank_details_changed", "severity": "high", "description": "The bank account differs from this supplier's last three invoices.", "source": "engine"}],
+    "created_at": "2026-11-02T09:14:00Z", "updated_at": "2026-11-02T09:14:20Z"
+  },
+  "review_queue": [
+    {"id": "01a19814-0000-7000-8000-de9530e8f488", "document_id": "01a19812-0000-7000-8000-7bbb86296ebf", "extraction_id": "01a19813-0000-7000-8000-58b5a09dd755", "reason": "bank_details_changed", "status": "pending", "created_at": "2026-11-02T09:14:20Z"}
+  ]
+}

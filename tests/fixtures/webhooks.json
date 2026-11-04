@@ -1,0 +1,4 @@
+{"endpoints": [
+  {"id": "01a199aa-0000-7000-8000-b02cd01f1763", "url": "https://hooks.example.com/invoist", "description": "Books sync", "events": ["extraction.completed"], "enabled": true, "consecutive_failures": 0, "created_at": "2026-09-01T12:00:00Z"},
+  {"id": "01a199aa-0000-7000-8000-080d13d1f8b0", "url": "https://old.example.com/hook", "description": "", "events": ["*"], "enabled": false, "consecutive_failures": 12, "auto_disabled_at": "2026-10-01T00:00:00Z", "created_at": "2026-05-01T12:00:00Z"}
+], "known_events": ["document.created", "extraction.completed", "extraction.failed", "review_item.created", "review_item.resolved", "document_request.fulfilled"]}

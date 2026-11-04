@@ -1,0 +1,4 @@
+{"review_queue": [
+  {"id": "01a19814-0000-7000-8000-9f939e627a20", "document_id": "01a19812-0000-7000-8000-7bbb86296ebf", "extraction_id": "01a19813-0000-7000-8000-58b5a09dd755", "reason": "bank_details_changed", "status": "pending", "created_at": "2026-11-02T09:14:20Z", "original_filename": "northwind-2041.pdf", "content_type": "application/pdf", "document_status": "done", "vendor_name": "Northwind Paper Co.", "invoice_number": "INV-2041", "total_cents": 120420, "currency": "USD"},
+  {"id": "01a19814-0000-7000-8000-81c163f7f677", "document_id": "01a19812-0000-7000-8000-d20deac0a35e", "extraction_id": "01a19813-0000-7000-8000-a42672a8b557", "reason": "duplicate", "status": "pending", "created_at": "2026-10-28T15:02:31Z", "original_filename": "harbor-print-5510.pdf", "content_type": "application/pdf", "document_status": "done", "vendor_name": "Harbor Print", "invoice_number": "5510", "total_cents": 230000, "currency": "USD"}
+]}

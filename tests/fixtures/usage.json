@@ -1,0 +1,3 @@
+{"period_start": "2026-11-01T00:00:00Z", "total_calls": 96, "total_documents": 48, "total_cost_cents": 0, "by_day": [
+  {"day": "2026-11-01", "calls": 40, "documents": 20}, {"day": "2026-11-02", "calls": 36, "documents": 18}, {"day": "2026-11-03", "calls": 20, "documents": 10}
+]}

@@ -1,0 +1,9 @@
+{
+  "document": {"id": "02b10000-0000-7000-8000-c62d2950e7ac", "source": "email", "original_filename": "brightline-energy-oct.pdf", "content_type": "application/pdf", "byte_size": 40120, "status": "done", "created_at": "2026-10-20T07:00:00Z", "updated_at": "2026-10-20T07:00:10Z"},
+  "extraction": {"id": "02b10001-0000-7000-8000-ede2cc6d69f0", "document_id": "02b10000-0000-7000-8000-c62d2950e7ac", "engine": "invoist-extraction-v1", "status": "done", "invoice_number": "E-88213", "due_date": "2026-10-30", "vendor_name": "Brightline Energy", "currency": "EUR", "total_cents": 8420, "reference_number": "RF71 1234 5600 0029", "created_at": "2026-10-20T07:00:00Z", "updated_at": "2026-10-20T07:00:10Z"},
+  "review_queue": [],
+  "bill": {},
+  "chain": {"root_id": "02b10000-0000-7000-8000-c62d2950e7ac", "members": [
+    {"document_id": "02b10000-0000-7000-8000-c62d2950e7ac", "kind": "invoice", "status": "done", "original_filename": "brightline-energy-oct.pdf", "vendor_name": "Brightline Energy", "total_cents": 8420, "currency": "EUR", "date": "2026-10-20", "due_date": "2026-10-30", "vendor_iban": "FI00 1234 5600 0007 85", "vendor_bic": "XMPLFIHX"}
+  ]}
+}

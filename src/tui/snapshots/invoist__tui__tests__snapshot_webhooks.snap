@@ -1,0 +1,20 @@
+---
+source: src/tui/tests.rs
+expression: "render(&mut app, 120, 16)"
+---
+"  ◐ Invoist    1 Overview   2 Invoices   3 To check   4 Upload   5 Webhooks                          default · business "
+"────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────"
+" ╭ Webhook endpoints ─────────────────────────────────────────────────────────────────────────────────────────────────╮ "
+" │ URL                                                         EVENTS                                  STATE          │ "
+" │ https://hooks.example.com/invoist                           extraction.completed                    ✓ working      │ "
+" │ https://old.example.com/hook                                all                                     ✗ paused       │ "
+" │                                                                                                                    │ "
+" │                                                                                                                    │ "
+" │                                                                                                                    │ "
+" │                                                                                                                    │ "
+" │                                                                                                                    │ "
+" │ Events Invoist can send                                                                                            │ "
+" │ document.created  ·  extraction.completed  ·  extraction.failed  ·  review_item.created  ·  review_item.resolved   │ "
+" │ document_request.fulfilled                                                                                         │ "
+" ╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ "
+" ↑↓ move   r refresh   tab screens   : commands   ? keys   q quit                                                       "

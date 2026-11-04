@@ -1,0 +1,1 @@
+{"unpaid": 3, "overdue": 1, "due_soon": [{"currency": "EUR", "count": 3, "total_cents": 31540}], "days": 30, "today": "2026-11-03"}

@@ -1,0 +1,6 @@
+---
+source: tests/cli.rs
+expression: "String::from_utf8(out).unwrap()"
+---
+ID        FROM                     SUBJECT                  FILES  WHY         KEPT UNTIL
+993cab0e  billing@new-gym.example  Your membership invoice      1  new sender  2026-11-16

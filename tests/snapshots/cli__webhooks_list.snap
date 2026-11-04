@@ -1,0 +1,7 @@
+---
+source: tests/cli.rs
+expression: "String::from_utf8(out).unwrap()"
+---
+ID        URL                                EVENTS                STATE    SINCE
+d01f1763  https://hooks.example.com/invoist  extraction.completed  working  2026-09-01
+13d1f8b0  https://old.example.com/hook       all                   paused   2026-05-01

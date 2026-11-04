@@ -1,0 +1,8 @@
+---
+source: tests/cli.rs
+expression: table
+---
+ID        SUPPLIER             INVOICE       TOTAL  STATUS         ADDED
+86296ebf  Northwind Paper Co.  INV-2041  $1,204.20  to check       2026-11-02
+eac0a35e  Harbor Print         5510      $2,300.00  read           2026-10-28
+678e3843  receipt-photo.jpg                      —  couldn't read  2026-10-20

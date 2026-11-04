@@ -1,0 +1,10 @@
+---
+source: tests/cli.rs
+expression: summary
+---
+3 unpaid bills, 1 overdue
+€315.40 due in the next 30 days
+
+  2950e7ac  Brightline Energy                  €84.20  2026-10-30  overdue
+  2574e4de  Clearwater Utilities               €61.20  2026-11-15
+  819fa6b3  Metro Broadband                   €170.00  2026-11-20

@@ -1,0 +1,3 @@
+{"held_emails": [
+  {"id": "03c10000-0000-7000-8000-7bfa993cab0e", "from_email": "billing@new-gym.example", "subject": "Your membership invoice", "status": "held", "created_at": "2026-11-02T18:00:00Z", "hold_reason": "new_sender", "held_until": "2026-11-16T18:00:00Z", "sender": "unknown", "files": [{"id": "03c10001-0000-7000-8000-0cbe63379ebb", "filename": "invoice.pdf", "content_type": "application/pdf", "size_bytes": 20480}]}
+]}

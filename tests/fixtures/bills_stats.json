@@ -1,0 +1,4 @@
+{"month": "2026-11", "totals": [{"currency": "EUR", "count": 4, "paid_count": 1, "total_cents": 39960, "paid_cents": 8420}],
+ "trend": [{"month": "2026-08", "currency": "EUR", "count": 4, "total_cents": 35110}, {"month": "2026-09", "currency": "EUR", "count": 5, "total_cents": 41200}, {"month": "2026-10", "currency": "EUR", "count": 4, "total_cents": 38800}, {"month": "2026-11", "currency": "EUR", "count": 4, "total_cents": 39960}],
+ "top_senders": [{"name": "Metro Broadband", "currency": "EUR", "count": 1, "total_cents": 17000}, {"name": "Brightline Energy", "currency": "EUR", "count": 1, "total_cents": 8420}],
+ "senders": [{"name": "Brightline Energy", "count": 12}]}

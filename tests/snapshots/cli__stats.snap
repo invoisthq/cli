@@ -1,0 +1,8 @@
+---
+source: tests/cli.rs
+expression: "String::from_utf8(out).unwrap()"
+---
+  This month       48 of 500 included
+  All time         1,312
+  To check         2
+  Plan             Starter

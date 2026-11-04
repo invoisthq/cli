@@ -1,0 +1,24 @@
+---
+source: src/tui/tests.rs
+expression: screen
+---
+"  ◐ Invoist    1 Overview   2 Invoices   3 To check   4 Upload   5 Webhooks                          default · business "
+"────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────"
+" ╭ Choose files · ~/invoices               ────────────────╮ ╭ Uploads ───────────────────────────────────────────────╮ "
+" │ PDF, PNG AND JPEG FILES                                 │ │ ⠋ receipt-photo.jpg                                    │ "
+" │ ▸ ../                                                   │ │   reading                                              │ "
+" │ ▸ scans/                                                │ │ ✓ harbor-print-0193.pdf                                │ "
+" │   harbor-print-0193.pdf                                 │ │   Harbor Print · $318.00 · already uploaded            │ "
+" │   northwind-2041.pdf                                    │ │ ! northwind-2041.pdf                                   │ "
+" │   receipt-photo.jpg                                     │ │   Northwind Paper Co. · $1,204.20                      │ "
+" │                                                         │ │   check: bank details changed                          │ "
+" │                                                         │ │                                                        │ "
+" │                                                         │ │                                                        │ "
+" │                                                         │ │                                                        │ "
+" │                                                         │ │                                                        │ "
+" │                                                         │ │                                                        │ "
+" │                                                         │ │                                                        │ "
+" │                                                         │ │                                                        │ "
+" │                                                         │ │                                                        │ "
+" ╰─────────────────────────────────────────────────────────╯ ╰────────────────────────────────────────────────────────╯ "
+" ↑↓ move   enter open folder or upload   ← up a folder   tab screens   : commands   ? keys   q quit                     "

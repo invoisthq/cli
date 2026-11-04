@@ -1,0 +1,24 @@
+---
+source: tests/cli.rs
+expression: card
+---
+Northwind Paper Co.  read
+Invoice INV-2041 · issued 2026-11-01 · due 2026-12-01
+
+  Total      $1,204.20
+  Subtotal   $1,115.00
+  Tax        $89.20
+  Reference  RF18 5390 0754 7034
+
+LINES
+  Copier paper, 40 boxes  40 × $21.50  $860.00
+  Toner, black             6 × $35.00  $210.00
+  Delivery                              $45.00
+
+SET ASIDE FOR A PERSON TO CHECK
+  ! bank details changed  30e8f488
+
+WARNING SIGNS
+  • The bank account differs from this supplier's last three invoices.
+
+01a19812-0000-7000-8000-7bbb86296ebf  ·  northwind-2041.pdf  ·  added 2026-11-02

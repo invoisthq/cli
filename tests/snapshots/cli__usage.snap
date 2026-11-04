@@ -1,0 +1,13 @@
+---
+source: tests/cli.rs
+expression: "String::from_utf8(out).unwrap()"
+---
+Since 2026-11-01
+  Invoices read  48
+  API calls      96
+  Cost           $0.00
+
+BY DAY
+  2026-11-01  20  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇
+  2026-11-02  18  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇
+  2026-11-03  10  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇

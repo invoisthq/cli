@@ -1,0 +1,7 @@
+---
+source: tests/cli.rs
+expression: "String::from_utf8(out).unwrap()"
+---
+ID        NAME             DEFAULT
+5d1fd6cc  Office supplies
+d17839cc  Utilities        yes

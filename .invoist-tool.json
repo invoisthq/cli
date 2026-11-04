@@ -1,0 +1,11 @@
+{
+  "name": "Invoist CLI",
+  "mirror": "invoisthq/cli",
+  "commands": {
+    "version": "sed -n 's/^version = \"\\(.*\\)\"/\\1/p' Cargo.toml | head -1",
+    "setup": "cargo fetch",
+    "lint": "cargo fmt --all --check && cargo clippy --all-targets --locked -- -D warnings",
+    "test": "cargo test --locked",
+    "build": "cargo build --release --locked && cargo package --allow-dirty --no-verify --locked"
+  }
+}
