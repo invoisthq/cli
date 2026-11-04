@@ -4,7 +4,7 @@ expression: screen
 ---
 "  ◐ Invoist    1 Overview   2 Invoices   3 To check   4 Upload   5 Webhooks                          default · business "
 "────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────"
-" ╭ Choose files · ~/invoices               ────────────────╮ ╭ Uploads ───────────────────────────────────────────────╮ "
+" ╭ Choose files · ~/invoices ──────────────────────────────╮ ╭ Uploads ───────────────────────────────────────────────╮ "
 " │ PDF, PNG AND JPEG FILES                                 │ │ ⠋ receipt-photo.jpg                                    │ "
 " │ ▸ ../                                                   │ │   reading                                              │ "
 " │ ▸ scans/                                                │ │ ✓ harbor-print-0193.pdf                                │ "

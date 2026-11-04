@@ -533,11 +533,14 @@ fn snapshot_upload() {
         .iter_mut()
         .find(|l| l.contains("Choose files · "))
         .expect("a title");
+    // Its length differs too, so everything up to the corner is replaced:
+    // a long path fills the title, where a short one leaves a gap.
     let start = title.find("Choose files · ").unwrap() + "Choose files · ".len();
     let end = start + title[start..].find(" ─").expect("the title ends");
     assert!(title[start..end].ends_with("invoices"), "{title}");
-    let width = title[start..end].chars().count();
-    title.replace_range(start..end, &format!("{:<width$}", "~/invoices"));
+    let corner = start + title[start..].find('╮').expect("the box has a corner");
+    let width = title[start..corner].chars().count();
+    title.replace_range(start..corner, &format!("{:─<width$}", "~/invoices "));
     let screen = lines.join("\n");
     insta::assert_snapshot!(screen);
 }
